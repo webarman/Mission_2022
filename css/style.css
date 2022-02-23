@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.container{
+    margin-top: 140px;
+    padding-left: 156px;
+    margin-bottom: 140px;
+    margin-right: 156px;
+    
+}
+#focused{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+
+
+.focused_text h1 {
+    font-size: 60px;
+    border-left: 3px solid #FFAD5A;
+    padding-left: 5px;
+    
+    margin-bottom: 16px;
+}
+.focused_text h1 span{
+  color: #FFAD5A;
+}
+.focused_text p{
+    width: 471px;
+    font-size: 18px;
+    color: #3E3E3E;
+    margin-bottom: 19px;
+}
+.focused_text button {
+    background: linear-gradient(to right, red, #FF5959);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+    width: 172px;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.focused_text button:hover{
+    background: linear-gradient(to right, #FF5959, red);
+}
+.focused_text div{
+    margin-top: 33px;
+    color: #434343;
+}
+.focused_img img {
+    width: 426px;
+    height: 426px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+
+/* MISSION_START */
+.mission_section .mission_title{
+    text-align: center;
+    margin-top: 62px;
+    font-size: 50px;
+    margin-bottom: 48px;
+}
+
+.mission_section .mission_title span{
+    color: #FFAD5A;
+}
+#mission_parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+#mission_parent div{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 20px;
+     border-right: 4px solid #FF5959 ; 
+}
+#mission_parent div:hover{
+    box-shadow: 8px 8px 29px #c2c9db, -8px -8px 29px #e0e7fd;
+    transition: .5s;
+    
+}
+
+.mission{
+    background: rgba(79, 157, 166, 0.1);
+}
+.vission{
+    background: rgba(255, 89, 89, 0.1);
+}
+.goals{
+    background: #FFF4D6;
+}
+.mission img, .vission img, .goals img{
+    width: 141px;
+    height: 141px;
+}
+.first_mission h1{
+    font-size: 24px;
+}
+
+
+
+/* START_DEVELOP */
+
+.develop_section{
+    margin-top: 86px;
+    display: flex;
+    background-image: url("../img/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 227px;
+    margin-left: -100px;
+    
+
+}
+.develop_first img{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.develop_second{
+    margin-left: 72px;
+    display: flex;
+    align-items: center;
+}
+
+
+.develop_second .develop_title{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.develop_second p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.develop_second button {
+    background: linear-gradient(to right, red, #FF5959);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.develop_second button:hover{
+    background: linear-gradient(to right, #FF5959, red);
+}
+
+
+
+/* COMMUNITY_SECTION */
+
+
+.community_section{
+        margin-top: 86px;
+        display: flex;
+        background-image: url("../img/shapes/shape-1.png");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 200px;
+        margin-right: -100px;
+        padding-bottom: 80px;
+        
+        
+        
+}
+
+.first_community{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.first_community .community_title{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.first_community p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.first_community button {
+    background: linear-gradient(to right, red, #FF5959);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.first_community button:hover{
+    background: linear-gradient(to right, #FF5959, red);
+}
+
+.second_community img{
+    width: 400px;
+    height: 400px;
+    margin-right: 100px ;
+}
+
+/* START_FOOTER_SECTION */
+footer{
+    margin-top: -80px;
+    padding-top: 0;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer h1 span {
+    color: #FF5959;
+}
+
+
+
+
+/* CORONA_APPLICATION */
+
+.corona_section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.first_corona{
+    margin-left: 70px;
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    width: 280px;
+    border-radius: 10px;
+}
+.top_icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.top_icon  ._icon i{
+    font-size: 13px;
+}
+
+
+
+#corona{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.go_corona{
+ text-align: center;
+ margin-left: -13px;
+ font-size: 25px;
+}
+.go_corona span{
+    color: lime;
+}
+
+
+
+
+
+.Coronavirus h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.Coronavirus h2 span{
+    color: #FFAD5A;
+}
+
+.Coronavirus img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.sign_up{
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+.sign_up button{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.second_corona {
+    
+    margin-right: 70px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.second_corona h1{
+    font-size: 35px;
+    
+}
+
+.second_corona h1 span{
+    color: #FFAD5A;
+    
+}
+.second_corona p{
+    font-size: 18px;    
+    width: 500px;
+    
+}
+
+
+
+.second_corona button {
+    background: linear-gradient(to right, red, #FF5959);
+    color: white;
+    font-weight: bold;
+    padding: 0px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.second_corona button:hover{
+    background: linear-gradient(to right, #FF5959, red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START_CONTACT */
+
+.contact_section{
+    display: flex;
+    margin-top: 70px;
+}
+.contact_info{
+    display: flex;
+}
+
+.first_contact, .second_contact{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+
+.first_contact .contact_title{
+    font-size: 50px;
+}
+
+.first_contact p{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.contact_info{
+    margin-top: 50px;
+}
+
+.second_contact img{
+    width: 400px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+
+
+
+.contact h1, .address h1{
+    border-bottom: 2px solid #FF5959;
+    text-align: center;
+}
+
+
+.contact, .address{
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.socail_icon {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socail_icon ul {
+    display: flex;
+    
+}
+.socail_icon ul li{
+    list-style-type: none;
+    margin-left: 90px;
+    cursor: pointer;
+    border: 2px solid #FFAD5A;
+     width: 40px;
+    height: 40px;
+    background-color: rgb(184, 219, 184);
+    overflow: hidden;
+
+    
+}
+
+.socail_icon ul li:first-child{
+    margin-left: 0px;
+}
+.socail_icon ul li i{
+    font-size: 24px;
+    padding: 5px;
+    color: blue;
+}
+
+ .socail_icon ul li:hover i{
+    transform: scale(1.2);
+    transition: .5s;
+
+} 
+
